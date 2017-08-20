@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+float fazMedia(int n1, int n2) {
+	return (n1 + n2) / 2;
+}
+
 int main() {
 
 	float n1, n2;
@@ -11,10 +15,8 @@ int main() {
 
 	printf("Digite o segundo número: ");
 	scanf("%f", &n2);
-
-	float media = (n1 + n2) / 2;
-
-	printf("\nA média é: %.2f\n", media);
+	
+	printf("\nA média é: %.2f\n", fazMedia(n1, n2));
 
 	return 0;
 }
