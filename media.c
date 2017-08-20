@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float fazMedia(int n1, int n2) {
+float fazMedia(float n1, float n2) {
 	return (n1 + n2) / 2;
 }
 
